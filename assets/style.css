@@ -311,17 +311,17 @@
 .box-level{}
 
 .box:nth-child(1) > .box-image {
-	background : url("assets/fhss.jpg");
+	background : url("fhss.jpg");
 	background-size: cover;
 }
 
 .box:nth-child(2) .box-image{
-	background:url("assets/nccs.jpg");
+	background:url("nccs.jpg");
 	background-size: cover;
 }
 
 .box:nth-child(3) .box-image{
-	background:url("assets/kist.png");
+	background:url("kist.png");
 	background-size: cover;
 }
 
