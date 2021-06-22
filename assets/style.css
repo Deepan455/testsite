@@ -1,0 +1,167 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+
+#logo{
+	font-weight: 4px;
+	font-size:30px;
+	color: #34a8eb;
+}
+
+#hi{
+	color:black;
+}
+
+#line{
+	font-size: 20px;
+}
+
+#menu{
+	background: #fff;
+}
+
+#menu > #logo{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+
+#menu > #nav{
+	position: absolute;
+	top: 75%;
+	left: 5%;
+}
+
+#nav{
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#me{
+	height: 400px;
+	width:400px;
+	border-radius: 15%;
+	transform: translate(185%,8%);
+	animation: line 2s infinite;
+}
+
+#photo{
+    background: url("assets/me.jpg");
+    border: 1px solid black;
+}
+@keyframes shadow{
+	0%{
+		box-shadow: 0px 0px 1.5px 1px #10529E;
+	}
+	25%{
+		box-shadow: 0px 0px 24px 16px #3cc6d8;
+	}
+	50%{
+		box-shadow: 0px 0px 7.5px 5px #e9f542;
+	}
+
+	75%{
+		box-shadow: 0px 0px 30px 20px #f542aa;
+	}
+	99%{
+		box-shadow: 0px 0px 1.5px 1px #ce42f5;
+	}
+}
+
+@keyframes line{
+	0%{
+		border: 0px 0px 0px 1px solid red;
+	}
+	25%{
+		border: 1px 0px 0px 0px solid blue;	
+	}
+
+	50%{
+		border: 0px 1px 0px 0px solid green;
+	}
+
+	75%{
+		border: 0px 0px 1px 0px solid yellow;
+	}
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+#nav li{
+	list-style-type: none;
+	background-color: #10529E;
+	width: 90px;
+	height: 25px;
+	display: inline;
+	border-radius: 10px;
+	font-size: 18;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+#nav>a:hover .item{
+	color:#17127a;
+	background: white;
+}
+
+#nav>a:hover{
+    transform: scale(1.1);
+}
+
+#programmer{
+	margin:30px;
+    float: left;
+}
+
+#about_head{
+			margin: 50px;
+	        text-align: center;	
+}
+
+.card{
+
+
+}
+
+.topword{
+    text-align: center;
+}
+
+
+.page{
+    height: 100vh;
+    position: relative;
+    padding: 50px;
+}
+
+#contacts{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+
+.image{
+    display: inline;
+}
+
+.detail{
+    display: inline;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+    padding: 50px;
+
+}
+
+
