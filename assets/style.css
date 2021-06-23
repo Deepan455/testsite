@@ -91,6 +91,7 @@
 
 #social{
 	text-align: center;
+<<<<<<< HEAD
 }
 
 #social .fab{
@@ -98,6 +99,15 @@
 	margin: 10px;
 }
 
+=======
+}
+
+#social .fab{
+	font-size: 30px;
+	margin: 10px;
+}
+
+>>>>>>> 045f185493df58379850060c01e82559a7e19900
 
 @keyframes jump{
 	0%{
@@ -130,6 +140,7 @@
 .fa-youtube:hover{
 	color:red;
 }
+<<<<<<< HEAD
 
 .fa-html5{
 	color: #eb5757;
@@ -151,6 +162,29 @@
 	color: lightblue;
 }
 
+=======
+
+.fa-html5{
+	color: #eb5757;
+}
+
+.fa-css3-alt{
+	color: #5772eb;
+}
+
+.fa-js{
+	color: #fab905;
+}
+
+.fa-python{
+	color: #57eb9a;
+}
+
+.fa-wordpress{
+	color: lightblue;
+}
+
+>>>>>>> 045f185493df58379850060c01e82559a7e19900
 #tools .fab{
 	font-size: 50px;
 }
@@ -215,8 +249,12 @@
 }
 
 #about_head{
+<<<<<<< HEAD
 	text-align: center;
 	overflow: scroll;
+=======
+	text-align: center;	
+>>>>>>> 045f185493df58379850060c01e82559a7e19900
 }
 
 #text{
@@ -247,6 +285,7 @@
 
 #service .hint{
 	width: 	100px;
+<<<<<<< HEAD
 }
 
 /* For theme card modification */
@@ -260,6 +299,21 @@
 	margin: 15px;
 }
 
+=======
+}
+
+/* For theme card modification */
+.card-body{
+	height: 55vh;
+	padding: 10%;
+}
+
+
+.card{
+	margin: 15px;
+}
+
+>>>>>>> 045f185493df58379850060c01e82559a7e19900
 
 
 
@@ -281,6 +335,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+<<<<<<< HEAD
 }
 
 
@@ -320,6 +375,54 @@
 }
 
 
+=======
+}
+
+
+.box{
+	border: 1px solid black;
+	margin: 25px;
+	margin-top: 60px;
+	display: grid;
+	border-radius: 10px;
+	grid-template-columns: 250px;
+	grid-template-rows: 250px 30px 70px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	text-align: center;
+	overflow: hidden;
+	transition: transform 0.25s linear;
+
+}
+
+.box:hover{
+	transform: scale(1.1);
+}
+
+.box-image{
+}
+
+.box-text{
+}
+
+.box-level{}
+
+.box:nth-child(1) > .box-image {
+	background : url("fhss.jpg");
+	background-size: cover;
+}
+
+.box:nth-child(2) .box-image{
+	background:url("nccs.jpg");
+	background-size: cover;
+}
+
+.box:nth-child(3) .box-image{
+	background:url("kist.png");
+	background-size: cover;
+}
+
+
+>>>>>>> 045f185493df58379850060c01e82559a7e19900
 
 
 /* MaKing it Mobile Responsive */
@@ -360,4 +463,8 @@
 		height: auto;
 		max-width: 200%;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 045f185493df58379850060c01e82559a7e19900
