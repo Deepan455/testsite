@@ -91,7 +91,6 @@
 
 #social{
 	text-align: center;
-<<<<<<< HEAD
 }
 
 #social .fab{
@@ -99,7 +98,6 @@
 	margin: 10px;
 }
 
-=======
 }
 
 #social .fab{
@@ -107,7 +105,6 @@
 	margin: 10px;
 }
 
->>>>>>> 045f185493df58379850060c01e82559a7e19900
 
 @keyframes jump{
 	0%{
@@ -140,7 +137,6 @@
 .fa-youtube:hover{
 	color:red;
 }
-<<<<<<< HEAD
 
 .fa-html5{
 	color: #eb5757;
@@ -162,7 +158,6 @@
 	color: lightblue;
 }
 
-=======
 
 .fa-html5{
 	color: #eb5757;
@@ -184,7 +179,6 @@
 	color: lightblue;
 }
 
->>>>>>> 045f185493df58379850060c01e82559a7e19900
 #tools .fab{
 	font-size: 50px;
 }
@@ -243,25 +237,19 @@
 #programmer{
     float: left;
     width: 100%;
-    display: inline;
     grid-row: 3;
     grid-column: 1; 
 }
 
 #about_head{
-<<<<<<< HEAD
 	text-align: center;
-	overflow: scroll;
-=======
-	text-align: center;	
->>>>>>> 045f185493df58379850060c01e82559a7e19900
+	text-align: center;
 }
 
 #text{
-	display: inline;
     grid-row: 2;
     grid-column-start: 2;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -285,12 +273,13 @@
 
 #service .hint{
 	width: 	100px;
-<<<<<<< HEAD
+}
+
+
 }
 
 /* For theme card modification */
 .card-body{
-	height: 55vh;
 	padding: 10%;
 }
 
@@ -299,22 +288,10 @@
 	margin: 15px;
 }
 
-=======
+.card-text{
+	height: 300px;
+	padding: 15px;
 }
-
-/* For theme card modification */
-.card-body{
-	height: 55vh;
-	padding: 10%;
-}
-
-
-.card{
-	margin: 15px;
-}
-
->>>>>>> 045f185493df58379850060c01e82559a7e19900
-
 
 
 #contacts{
@@ -335,7 +312,6 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-<<<<<<< HEAD
 }
 
 
@@ -375,7 +351,6 @@
 }
 
 
-=======
 }
 
 
@@ -422,8 +397,6 @@
 }
 
 
->>>>>>> 045f185493df58379850060c01e82559a7e19900
-
 
 /* MaKing it Mobile Responsive */
 
@@ -448,6 +421,30 @@
 	#nav{
 		grid-row:8/11;
 	}
+
+
+
+
+	#about{
+		grid-template:40% 60%/100%;
+		height: auto;
+	}
+
+	#programmer{
+		grid-row: 1;
+    	grid-column: 1;
+    	width: 70%;
+    	float: center;
+    	display: table-cell;
+    	position: relative;
+    	left: 15%;
+    	right: 15%;
+	}
+
+	#text{
+    	grid-row: 2;
+	    grid-column-start: 1;
+	}
 }
 
 @media screen and (max-width: 1050px) and (min-width: 600px)
@@ -463,8 +460,4 @@
 		height: auto;
 		max-width: 200%;
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 045f185493df58379850060c01e82559a7e19900
