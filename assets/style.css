@@ -235,7 +235,15 @@
 #about{
 	height: 600px;
 	display: grid;
-	grid-template:15% 10% 10% 1fr/40% 60%;
+	grid-template:100%/40% auto;
+	/* border:3px solid red; */
+}
+
+.aboutimage{
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #programmer{
@@ -247,15 +255,7 @@
 
 #about_head{
 	text-align: center;
-	text-align: center;
 }
-
-#text{
-    grid-row: 2;
-    grid-column-start: 2;
-    padding: 10px;
-}
-
 
 #tools{
 	display: flex;
@@ -297,6 +297,12 @@
 	text-align: center;
 }
 
+.centercontent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* For theme card modification */
 .card-body{
 	padding: 10%;
@@ -305,16 +311,18 @@
 
 .card{
 	margin: 15px;
+	max-width: 700;
 }
 
 .card-text{
 	min-height: 270px;
 	padding: 15px;
+	font-size: 22;
 }
 
 
 #contacts{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     padding: 100px;
 }
@@ -411,6 +419,9 @@
 	background-size: cover;
 }
 
+.textcolor{
+	color:#1a6c9b;
+}
 
 
 /* MaKing it Mobile Responsive */
@@ -435,14 +446,6 @@
 	}
 	#nav{
 		grid-row:6/11;
-	}
-
-
-
-
-	#about{
-		grid-template:40% 60%/100%;
-		height: auto;
 	}
 
 	#programmer{
