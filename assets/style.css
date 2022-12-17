@@ -99,7 +99,6 @@
 	margin: 10px;
 }
 
-}
 
 #social .fab{
 	font-size: 30px;
@@ -354,10 +353,6 @@
 	background-size: cover;
 }
 
-
-}
-
-
 .box{
 	border: 1px solid black;
 	margin: 25px;
@@ -376,14 +371,14 @@
 .box:hover{
 	transform: scale(1.1);
 }
-
+/* 
 .box-image{
 }
 
 .box-text{
 }
 
-.box-level{}
+.box-level{} */
 
 .box:nth-child(1) > .box-image {
 	background : url("fhss.jpg");
